@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Metrel_App.MainPage">
+
+    <StackLayout >
+        <Frame BackgroundColor="#2196F3" Padding="12" CornerRadius="0">
+            <Label Text="C++ QR" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60" />
+                <RowDefinition />
+                <RowDefinition Height="100" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="DECODE MEASUREMENT" BackgroundColor="#2196F3" TextColor="#ffffff" Grid.Column="0" Clicked="Decode_Clicked" />
+            <Button Text="TEST NATIVE CALLBACK" BackgroundColor="#2196F3" TextColor="#ffffff" Grid.Column="1" Clicked="Callback_Clicked" />
+        </Grid>
+    </StackLayout>
+
+
+
+</ContentPage>

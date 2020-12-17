@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "eUWUO+ZWqkgSqzuwQx94HHSgsNRFEY8HRMENmtte6DfCJKJG6/+PmTHyhdZElpmdS3H1jeX/fXaGojF5XI4PUw==",
+  "success": true,
+  "projectFilePath": "E:\\Xamarin\\Metrel_App\\Metrel_App.iOS\\Metrel_App.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}
